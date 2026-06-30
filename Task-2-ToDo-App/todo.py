@@ -11,7 +11,7 @@ def load_tasks():
         tasks.append(line.strip())
   except FileNotFoundError:
     pass
-#load_tasks()
+load_tasks()
 while True:
   print("\nMenu")
   print("1.Add task")
